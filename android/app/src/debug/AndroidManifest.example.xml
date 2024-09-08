@@ -5,5 +5,8 @@
     <application
         android:usesCleartextTraffic="true"
         tools:targetApi="28"
-        tools:ignore="GoogleAppIndexingWarning"/>
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="Insert your API key here" />
+    </application>
 </manifest>
